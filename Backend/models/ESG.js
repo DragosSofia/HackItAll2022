@@ -9,4 +9,4 @@ const ESGSchema = new mongoose.Schema(
     {timestamps: true}
 );
 
-module.exports = mongoose.model("ESG", ESGSchema)
+module.exports = mongoose.model("autos", ESGSchema)
