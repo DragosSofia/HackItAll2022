@@ -1,7 +1,7 @@
 const router = require("express").Router();
 const ESG = require("../models/ESG");
 
-router.get("/categories/:id", async (req, res) => {
+router.get("/carac/:id", async (req, res) => {
     try {
         const esgArray = await ESG.findById(req.params.id);
         res.status(200).json(esgArray);

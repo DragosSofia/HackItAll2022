@@ -14,7 +14,7 @@ mongoose
 });
     
     app.use(express.json());
-    app.use("/api/ESG", catRoute);
+    app.use("/api/esg", catRoute);
    
     
 app.listen(process.env.PORT || 5000, () => {
