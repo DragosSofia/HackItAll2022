@@ -2,9 +2,9 @@ const mongoose = require("mongoose")
 
 const ESGSchema = new mongoose.Schema(
     {
-        id: {type: Number},
         esg: {type: Array},
-        cat: {type: String}
+        cat: {type: String},
+        img: {type: String}
     },
     {timestamps: true}
 );
