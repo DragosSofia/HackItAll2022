@@ -2,7 +2,8 @@ const mongoose = require("mongoose")
 
 const DATESchema = new mongoose.Schema(
     {
-        dates: {type: Array}
+        dates: {type: Array},
+        future: {type: Array}
     },
     {timestamps: true}
 );

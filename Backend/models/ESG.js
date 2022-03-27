@@ -7,7 +7,8 @@ const ESGSchema = new mongoose.Schema(
         img: {type: String},
         last: {type: Number},
         grade: {type: String},
-        prices: {type: Array}
+        prices: {type: Array},
+        prediction: {type: Array}
     },
     {timestamps: true}
 );
